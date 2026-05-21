@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ivan Bogatyrev — AI-first Strategy Consultant helping marketing teams turn data, AI tools and fragmented workflows into clear strategy and measurable business impact." />
+  <title>Ivan Bogatyrev — AI-first Strategy Consultant</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ==============================
+       HEADER / NAV
+  ============================== -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo">Ivan Bogatyrev</a>
+
+      <nav class="nav" id="nav">
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#products" class="nav__link">Products</a>
+        <a href="#blog" class="nav__link">Blog</a>
+        <a href="#proof" class="nav__link">Proof</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-toggle__icon">◑</span>
+      </button>
+
+      <a href="#contact" class="btn btn--primary nav__cta">Book a call</a>
+
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ==============================
+       HERO
+  ============================== -->
+  <section class="hero">
+    <div class="container hero__inner">
+
+      <div class="hero__text">
+        <p class="hero__eyebrow">AI-first Strategy Consulting</p>
+        <h1 class="hero__headline">AI-first strategy<br>for small business</h1>
+        <p class="hero__sub">
+          I help small and mid-size businesses in Europe, the Balkans and the US turn data and AI tools into faster decisions and real competitive advantage.
+        </p>
+        <p class="hero__trust">
+          Featured by UC Berkeley Extension&nbsp;·&nbsp;15+ years in marketing &amp; media strategy&nbsp;·&nbsp;HSE lecturer
+        </p>
+        <div class="hero__btns">
+          <!-- REPLACE: add your calendar booking link -->
+          <a href="#contact" class="btn btn--primary">Book a strategic call</a>
+          <!-- REPLACE: Berkeley article URL below -->
+          <a href="https://voices.berkeley.edu/business/turning-data-strategy" target="_blank" class="btn btn--ghost">Read Berkeley feature</a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <!-- REPLACE: swap src with Ivan's portrait photo -->
+        <div class="hero__img-wrap">
+          <img
+            src="portrait.jpg"
+            alt="Ivan Bogatyrev"
+            class="hero__img"
+            onerror="this.style.display='none'"
+          />
+          <div class="hero__img-fallback">
+            <span>Ivan<br>Bogatyrev</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       STORY / ABOUT
+  ============================== -->
+  <section class="story">
+    <div class="container story__inner">
+
+      <div class="story__left">
+        <p class="story__eyebrow">The person behind the work</p>
+        <h2 class="story__headline">15 years of strategy.<br>3 years of going all-in on AI.</h2>
+        <div class="story__body">
+          <p>I started my career at BBDO Moscow — one of the world's top creative agencies. Over the next 15 years I moved through global media networks: GroupM, Havas, Media Instinct Group. I built strategies, ran analytics, consulted CMOs and taught marketing at HSE.</p>
+          <p>Then I decided to push further. I completed two certificate programs at UC Berkeley Extension — studying at 3 AM from Montenegro, working full-time. It sharpened how I think about data, strategy and business impact. UC Berkeley Extension published my story under the title <a href="https://voices.berkeley.edu/business/turning-data-strategy" target="_blank" class="story__link">"Turning Data Into Strategy."</a></p>
+          <p>For the last three years I have been deeply integrating AI into every part of my work — research, analytics, reporting, strategy development. Not experimenting. Building systems. The result: significantly faster output, higher quality of decisions, and a completely different scale of what one person can deliver.</p>
+          <p>That is what I now bring to small businesses — the strategic thinking of a large agency, the speed and leverage of AI, and the clarity that comes from 15 years of doing this for real.</p>
+        </div>
+      </div>
+
+      <div class="story__right">
+        <div class="story__stat">
+          <span class="story__stat-num">15+</span>
+          <span class="story__stat-label">years in marketing &amp; media strategy</span>
+        </div>
+        <div class="story__stat">
+          <span class="story__stat-num">3</span>
+          <span class="story__stat-label">years of deep AI workflow integration</span>
+        </div>
+        <div class="story__stat">
+          <span class="story__stat-num">2×</span>
+          <span class="story__stat-label">UC Berkeley Extension certificates</span>
+        </div>
+        <div class="story__companies">
+          <p class="story__companies-label">Experience across</p>
+          <div class="story__companies-row">
+            <span>BBDO</span>
+            <span>GroupM</span>
+            <span>Havas</span>
+            <span>Media Instinct</span>
+            <span>HSE</span>
+            <span>UC Berkeley</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       PROBLEM
+  ============================== -->
+  <section class="section problem" id="work">
+    <div class="container">
+      <p class="section__eyebrow">The problem</p>
+      <h2 class="section__headline">You're running the business.<br>Who's watching what's next?</h2>
+      <p class="section__body problem__body">
+        Every week there are new tools, new signals, new ways to compete. But as a business owner, you are already at full capacity — operations, team, clients, fires to put out. There is simply no time to track what is changing and figure out what to do about it.
+      </p>
+      <div class="problem__blocks">
+        <div class="problem__block problem__block--dark">
+          <p class="problem__block-num">The real cost of falling behind</p>
+          <p class="problem__block-text">Your competitors who adopt AI and data-driven strategy first will operate faster, spend smarter and price more aggressively. Not because they are bigger — but because they adapted sooner. The margin gap becomes structural. And structural gaps are hard to close.</p>
+        </div>
+        <div class="problem__stakes">
+          <div class="problem__stake">
+            <span class="problem__stake-marker">→</span>
+            <p>AI is already changing what one person can produce, how fast and at what cost. This is not coming. It is here.</p>
+          </div>
+          <div class="problem__stake">
+            <span class="problem__stake-marker">→</span>
+            <p>Most business owners know something important is shifting. Almost none have the bandwidth to act on it systematically.</p>
+          </div>
+          <div class="problem__stake">
+            <span class="problem__stake-marker">→</span>
+            <p>The window to move first is still open. But it is closing.</p>
+          </div>
+          <div class="problem__stake problem__stake--emphasis">
+            <span class="problem__stake-marker">↳</span>
+            <p>I stay on top of everything that is changing — and I build systems that put it to work in your business. So you don't have to track it. You just move faster.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       WHAT I DO
+  ============================== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <p class="section__eyebrow">How it works</p>
+      <h2 class="section__headline">Not a one-off project.<br>A continuous cycle.</h2>
+      <p class="section__body" style="margin-bottom: 3.5rem;">
+        I work with businesses in an ongoing loop — not a one-time delivery. Each cycle makes the system sharper, faster and more valuable to your business.
+      </p>
+
+      <div class="cycle">
+
+        <div class="cycle__step cycle__step--free">
+          <div class="cycle__num">01</div>
+          <div class="cycle__body">
+            <div class="cycle__title-row">
+              <h3 class="cycle__title">Audit</h3>
+              <span class="cycle__free-badge">Free</span>
+            </div>
+            <p class="cycle__text">I map your current business workflows, data sources, marketing activity and decision-making process. We identify where the biggest gaps and opportunities are — and where AI can create real leverage fast.</p>
+            <p class="cycle__output">Output: opportunity map, gap analysis, priority list</p>
+          </div>
+        </div>
+
+        <div class="cycle__arrow">↓</div>
+
+        <div class="cycle__step">
+          <div class="cycle__num">02</div>
+          <div class="cycle__body">
+            <h3 class="cycle__title">Workflow design &amp; forecast</h3>
+            <p class="cycle__text">I design AI-powered workflows tailored to your business: research, analytics, reporting, competitor monitoring, strategy. Alongside each workflow I show the projected impact — time saved, decisions accelerated, costs reduced.</p>
+            <p class="cycle__output">Output: workflow system, prompt library, templates, projected ROI</p>
+          </div>
+        </div>
+
+        <div class="cycle__arrow">↓</div>
+
+        <div class="cycle__step">
+          <div class="cycle__num">03</div>
+          <div class="cycle__body">
+            <h3 class="cycle__title">Implementation</h3>
+            <p class="cycle__text">We put the system to work. I support the rollout, help the team adopt the new workflows and make sure the tools are actually used — not just installed. This is where most AI projects fail. I make sure it doesn't.</p>
+            <p class="cycle__output">Output: running systems, team onboarding, usage protocols</p>
+          </div>
+        </div>
+
+        <div class="cycle__arrow">↓</div>
+
+        <div class="cycle__step cycle__step--last">
+          <div class="cycle__num">04</div>
+          <div class="cycle__body">
+            <h3 class="cycle__title">Results review &amp; next iteration</h3>
+            <p class="cycle__text">We measure what changed. What got faster. What got cheaper. What decisions improved. Then we go back to the top — with better data, sharper tools and a higher baseline. The system compounds over time.</p>
+            <p class="cycle__output">Output: performance review, updated priorities, next cycle plan</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       PRODUCTS
+  ============================== -->
+  <section class="section products" id="products">
+    <div class="container">
+      <p class="section__eyebrow">Concrete deliverables</p>
+      <h2 class="section__headline">What you actually get</h2>
+      <p class="section__body products__intro">
+        These are not consulting concepts. These are working analytical products — delivered on a regular schedule. All of them are built using AI agents, which makes the work significantly faster and more cost-efficient than traditional consulting.
+      </p>
+
+      <div class="products__grid">
+
+        <!-- PRODUCT 01 -->
+        <div class="product-card product-card--featured">
+          <div class="product-card__label">Product 01</div>
+          <div class="product-card__freq">One-time · or Monthly</div>
+          <h3 class="product-card__title">Google Analytics Audit + Media Strategy</h3>
+          <p class="product-card__desc">Full audit of your business funnel based on Google Analytics data — combined with a media strategy that tells you where and how to invest next. Data in, decisions out.</p>
+          <div class="product-card__includes">
+            <p class="product-card__includes-label">What's inside:</p>
+            <ul class="product-card__includes-list">
+              <li>Custom data extraction template — I define exactly what to pull and how</li>
+              <li>Full-funnel analysis: visit → micro-conversion → goal, step by step</li>
+              <li>3-year historical trend analysis: what changed, when and why</li>
+              <li>Conversion drop identification: exactly where users fall off and what it costs</li>
+              <li>Ad campaign audit: tracking, attribution, ROI calculation, what worked and what didn't</li>
+              <li>Media strategy: which channels to invest in, at what budget split, with what message</li>
+              <li>Structured recommendations ready to hand to your team or agency</li>
+            </ul>
+          </div>
+          <div class="product-card__pricing">
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">€500<span class="product-card__price-per"> one-time</span></span>
+            </div>
+            <div class="product-card__price-row">
+              <span class="product-card__price-note">or €200/month — ongoing monthly monitoring</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--outline">Get started</a>
+        </div>
+
+        <!-- PRODUCT 02 -->
+        <div class="product-card product-card--featured">
+          <div class="product-card__label">Product 02</div>
+          <div class="product-card__freq">One-time · or Quarterly</div>
+          <h3 class="product-card__title">Brand Strategy: Communication Radar + Positioning Map</h3>
+          <p class="product-card__desc">Based on a full parse of competitor websites, social media and content — we build your brand strategy: where the open niches are, which one to claim, and how to communicate it across every channel.</p>
+          <div class="product-card__includes">
+            <p class="product-card__includes-label">What's inside:</p>
+            <ul class="product-card__includes-list">
+              <li>Competitor content and messaging analysis across websites and social media</li>
+              <li>Communication radar: what each competitor says, to whom, and how</li>
+              <li>Positioning map: visual overview of occupied and open niches in your market</li>
+              <li>Niche recommendation: which gap fits your business best right now</li>
+              <li>Brand communication strategy: your core message and how to adapt it per channel</li>
+              <li>Channel breakdown: what to say on each platform — social, search, content</li>
+            </ul>
+          </div>
+          <div class="product-card__pricing">
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">€500<span class="product-card__price-per"> one-time</span></span>
+            </div>
+            <div class="product-card__price-row">
+              <span class="product-card__price-note">or €200/month — quarterly update subscription</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--outline">Get started</a>
+        </div>
+
+        <!-- PRODUCT 03 -->
+        <div class="product-card product-card--featured">
+          <div class="product-card__label">Product 03</div>
+          <div class="product-card__freq">One-time · or Quarterly</div>
+          <h3 class="product-card__title">Market Research + Communication Strategy</h3>
+          <p class="product-card__desc">Full cycle from market research to a ready-to-use communication strategy: who to talk to, what to say and where. Based on real data — not assumptions.</p>
+          <div class="product-card__includes">
+            <p class="product-card__includes-label">What's inside:</p>
+            <ul class="product-card__includes-list">
+              <li>Finding and briefing a research contractor, building the questionnaire, managing the full process</li>
+              <li>Audience segmentation: identifying key segments and their characteristics</li>
+              <li>Segment matching: which segments are most valuable for your business right now</li>
+              <li>Communication strategy: what message to lead with for each segment</li>
+              <li>Channel breakdown: what to say, on which platform, in what format</li>
+              <li>Final report ready to hand to your team or agency</li>
+            </ul>
+          </div>
+          <div class="product-card__pricing">
+            <div class="product-card__price-row">
+              <span class="product-card__price-main">€500<span class="product-card__price-per"> one-time</span></span>
+            </div>
+            <div class="product-card__price-row">
+              <span class="product-card__price-note">or €200/month — quarterly subscription</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--outline">Get started</a>
+        </div>
+
+        <!-- PRODUCT 04 -->
+        <div class="product-card product-card--featured product-card--ai">
+          <div class="product-card__label">Product 04</div>
+          <div class="product-card__freq">Custom · By project</div>
+          <h3 class="product-card__title">AI Agents + Workflow Build</h3>
+          <p class="product-card__desc">All the products above are already built using AI agents. This makes them faster and significantly cheaper to produce than traditional consulting. As a standalone product — I build the same agents and workflows for your business, so your team can run them independently.</p>
+          <div class="product-card__includes">
+            <p class="product-card__includes-label">What's inside:</p>
+            <ul class="product-card__includes-list">
+              <li>Custom AI agent design for your specific business tasks: research, analytics, reporting, competitor monitoring</li>
+              <li>Full workflow build: prompts, agent chains, data pipelines, output templates</li>
+              <li>Integration with your existing tools and data sources</li>
+              <li>Team training: how to run, maintain and evolve the system</li>
+              <li>Documentation — so the workflow doesn't live only in my head</li>
+            </ul>
+          </div>
+          <div class="product-card__ai-stack">
+            <p class="product-card__includes-label">Built on:</p>
+            <div class="product-card__ai-tools">
+              <span>Claude</span>
+              <span>ChatGPT</span>
+              <span>Gemini</span>
+              <span>Cursor</span>
+              <span>Perplexity</span>
+              <span>NotebookLM</span>
+            </div>
+          </div>
+          <div class="product-card__pricing">
+            <div class="product-card__price-row">
+              <span class="product-card__price-main" style="font-size:1.4rem;">By agreement</span>
+            </div>
+            <div class="product-card__price-row">
+              <span class="product-card__price-note">Price depends on scope and complexity of the workflow</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--primary">Discuss your project</a>
+        </div>
+
+        <!-- BONUS -->
+        <div class="product-card product-card--bonus">
+          <div class="product-card__label product-card__label--bonus">Bonus</div>
+          <div class="product-card__freq">Weekly · Monthly</div>
+          <h3 class="product-card__title">Business Intelligence Dashboard</h3>
+          <p class="product-card__desc">A single consolidated report covering all key business metrics — search demand, site traffic, conversions, media spend and ROI. One document, full picture, every week or month.</p>
+          <div class="product-card__includes">
+            <p class="product-card__includes-label">What's inside:</p>
+            <ul class="product-card__includes-list">
+              <li>Search demand dynamics: what your audience is looking for and how it shifts</li>
+              <li>Site traffic: sources, trends, anomalies</li>
+              <li>Conversion metrics across the full funnel</li>
+              <li>Media spend efficiency and ROI by channel</li>
+              <li>Weekly or monthly cadence — structured, consistent, ready to act on</li>
+            </ul>
+          </div>
+          <div class="product-card__pricing">
+            <div class="product-card__price-row">
+              <span class="product-card__price-free">Free</span>
+              <span class="product-card__price-note">included with any product purchase</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--outline">Get started</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- ==============================
+       BLOG / INSIGHTS
+  ============================== -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <p class="section__eyebrow">Thinking out loud</p>
+      <h2 class="section__headline">Insights, cases<br>and field notes</h2>
+      <p class="section__body blog__intro">
+        I write about what I actually work on — AI implementation, digital strategy, data systems and what's changing in the market. Real cases, real conclusions.
+      </p>
+
+      <div class="blog__grid">
+
+        <article class="blog-card blog-card--coming">
+          <div class="blog-card__tag">AI in practice</div>
+          <h3 class="blog-card__title">How I built a competitor intelligence system using Claude and Perplexity</h3>
+          <p class="blog-card__desc">From manual research to automated weekly reports — what changed, how long it took and what it now costs per month.</p>
+          <span class="blog-card__status">Coming soon</span>
+        </article>
+
+        <article class="blog-card blog-card--coming">
+          <div class="blog-card__tag">Analytics</div>
+          <h3 class="blog-card__title">3 conversion problems I find in almost every Google Analytics account</h3>
+          <p class="blog-card__desc">After auditing dozens of funnels, the same patterns keep appearing. Here's what they are and how to fix them fast.</p>
+          <span class="blog-card__status">Coming soon</span>
+        </article>
+
+        <article class="blog-card blog-card--coming">
+          <div class="blog-card__tag">Strategy</div>
+          <h3 class="blog-card__title">Why small businesses lose on positioning — and how a positioning map changes that</h3>
+          <p class="blog-card__desc">Most small businesses don't know where the open niches are. Here's a framework for finding them in one week.</p>
+          <span class="blog-card__status">Coming soon</span>
+        </article>
+
+      </div>
+
+      <div class="blog__follow">
+        <p class="blog__follow-text">Follow on LinkedIn for new posts as they come out</p>
+        <!-- REPLACE: LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/ivan-bogatyrev-95a3235b/" target="_blank" class="btn btn--ghost">Follow on LinkedIn</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       PROOF
+  ============================== -->
+  <section class="section proof" id="proof">
+    <div class="container">
+      <h2 class="section__headline">Why me</h2>
+      <div class="cards cards--4">
+
+        <div class="card card--proof">
+          <div class="proof__tag">Berkeley</div>
+          <h3 class="card__title">Featured by UC Berkeley Extension</h3>
+          <p class="card__text">My professional story was published by UC Berkeley Extension under the title "Turning Data Into Strategy."</p>
+        </div>
+
+        <div class="card card--proof">
+          <div class="proof__tag">Experience</div>
+          <h3 class="card__title">15+ years in marketing and media strategy</h3>
+          <p class="card__text">Experience across BBDO Moscow, GroupM, Havas, Media Instinct and consulting for major brands.</p>
+        </div>
+
+        <div class="card card--proof">
+          <div class="proof__tag">Analytics</div>
+          <h3 class="card__title">Data-driven strategy background</h3>
+          <p class="card__text">Marketing analytics, attribution logic, media effectiveness, demand analysis, brand tracking and business impact.</p>
+        </div>
+
+        <div class="card card--proof">
+          <div class="proof__tag">Teaching</div>
+          <h3 class="card__title">Teaching and advisory experience</h3>
+          <p class="card__text">Lecturer at HSE. Advisor to marketing teams, CMOs and business stakeholders.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- ==============================
+       FINAL CTA
+  ============================== -->
+  <section class="section cta-final" id="contact">
+    <div class="container cta-final__inner">
+      <h2 class="cta-final__headline">Let's turn AI noise into<br>strategic leverage.</h2>
+      <p class="cta-final__body">
+        If your business is ready to move faster and use AI as a real strategic tool — not a toy — let's talk.
+      </p>
+      <div class="cta-final__btns">
+        <!-- REPLACE: calendar booking link -->
+        <a href="YOUR_CALENDAR_LINK_HERE" target="_blank" class="btn btn--primary btn--lg">Book a call</a>
+        <!-- REPLACE: LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/ivan-bogatyrev-95a3235b/" target="_blank" class="btn btn--ghost btn--lg">Connect on LinkedIn</a>
+        <!-- REPLACE: your email address -->
+        <a href="mailto:john.bogiv2022@gmail.com" class="btn btn--ghost btn--lg">Email me</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       FOOTER
+  ============================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name">Ivan Bogatyrev — AI-first Strategy Consultant</p>
+      <div class="footer__links">
+        <!-- REPLACE: LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/ivan-bogatyrev-95a3235b/" target="_blank">LinkedIn</a>
+        <!-- REPLACE: Berkeley article URL -->
+        <a href="https://voices.berkeley.edu/business/turning-data-strategy" target="_blank">Berkeley feature</a>
+        <!-- REPLACE: your email -->
+        <a href="mailto:john.bogiv2022@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
